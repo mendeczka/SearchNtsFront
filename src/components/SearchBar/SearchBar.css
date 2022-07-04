@@ -1,0 +1,23 @@
+input {
+    height: 15px;
+    width: 15em;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.btn-search {
+    border: 0;
+    background-color: #fec95c;
+    color: #8f5a0a;
+    text-transform: uppercase;
+    padding: 1px 25px;
+    border-radius: 2px;
+}

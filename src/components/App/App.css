@@ -1,0 +1,10 @@
+.app {
+
+    height: calc(100vh - 20px);
+    background-color: red;
+    text-align: center;
+}
+
+.div-search {
+    margin: 50px auto;
+}

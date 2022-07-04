@@ -1,0 +1,11 @@
+.header-container {
+    background-color: #3a5693;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 40px;
+
+}

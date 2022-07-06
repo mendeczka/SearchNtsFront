@@ -1,17 +1,17 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { SearchContext } from "../../contexts/search.context";
+import "./Results.css";
+import { Table } from "./Table";
 
 export const Results = () => {
   const { search } = useContext(SearchContext);
 
-  useEffect(() => {
-    console.log("Make request to search for", search);
-  }, [search]);
-
   return (
     <>
-      <h1>Search for:{search}</h1>
-      test
+      <h1>Wyszukujesz produkt:</h1>
+
+      <p>{search.toUpperCase()}</p>
+      <Table />
     </>
   );
 };

@@ -1,5 +1,4 @@
 import React, { SyntheticEvent, useContext, useState } from "react";
-import { Btn } from "../common/Btn";
 import "./SearchBar.css";
 import { SearchContext } from "../../contexts/search.context";
 
@@ -22,11 +21,10 @@ export const SearchBar = () => {
           type="text"
           id="header-search"
           placeholder="Znajdź produkt"
-          name="s"
           value={inputValue}
           onChange={(event) => setInputValue(event.target.value)}
         />
-        <Btn text="Wyszukaj" />
+        <button className="btn-search">Wyszukaj</button>
       </form>
     </>
   );

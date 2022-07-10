@@ -1,0 +1,7 @@
+.app {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: calc(100vh - 20px);
+    background-color: rgba(239, 226, 226, 0.44);
+    text-align: center;
+}
